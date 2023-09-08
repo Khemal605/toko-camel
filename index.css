@@ -1,0 +1,128 @@
+.header{
+    background-color: rgb(43, 46, 201);
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.hero{
+    height: 500px;
+    background-image: url('gambar kartun.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+}
+
+
+.hero h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.hero p{
+    color: black;
+    font-weight: bold;
+}
+
+.hero a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(200, 243, 151);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.hero a:hover{
+    color: white;
+    background-color: blue;
+}
+
+.produk {
+    background-color: rgb(221, 240, 248);
+    height:350px;
+    width: 230px;
+    margin-top: 20px;
+    margin-top: 20px;
+    box-shadow: 3px 2px 5px gray;
+    border-radius: 5px;
+}
+
+.all-produk{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produk img{
+    height: 100px;
+    width: 200px;
+}
+
+.nama-produk{
+    font-size: 25px;
+    font-weight: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.harga-produk{
+    font-size: 15px;
+    font-weight: 200px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.produk a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(90, 73, 167);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.produk a:hover{
+    color: white;
+    background-color: rgb(99, 99, 238);
+}
+
+.footer{
+    background-color: rgb(125, 127, 231)
+}
+
+@media (max-width: 768px) {
+
+    .hero{
+        padding: 50px;
+    }
+    
+    .produk{
+        width: 150px;
+        height: 300px;
+    }
+    .produk img{
+        width: 150px;
+    }
+    .nama-produk{
+        font-size: 15px;    
+    }
+    .produk a{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
